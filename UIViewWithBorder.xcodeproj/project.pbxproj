@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		3A55E24F2077596C00D3884D /* UIViewWithBorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A55E24D2077596C00D3884D /* UIViewWithBorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A55E27F2077607800D3884D /* UIView+Corner.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A55E27D2077607700D3884D /* UIView+Corner.m */; };
+		3A55E2802077607800D3884D /* UIView+Corner.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A55E27E2077607700D3884D /* UIView+Corner.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3A55E24A2077596C00D3884D /* UIViewWithBorder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIViewWithBorder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A55E24D2077596C00D3884D /* UIViewWithBorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIViewWithBorder.h; sourceTree = "<group>"; };
 		3A55E24E2077596C00D3884D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A55E27D2077607700D3884D /* UIView+Corner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Corner.m"; sourceTree = "<group>"; };
+		3A55E27E2077607700D3884D /* UIView+Corner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Corner.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,8 @@
 		3A55E24C2077596C00D3884D /* UIViewWithBorder */ = {
 			isa = PBXGroup;
 			children = (
+				3A55E27E2077607700D3884D /* UIView+Corner.h */,
+				3A55E27D2077607700D3884D /* UIView+Corner.m */,
 				3A55E24D2077596C00D3884D /* UIViewWithBorder.h */,
 				3A55E24E2077596C00D3884D /* Info.plist */,
 			);
@@ -59,6 +65,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A55E2802077607800D3884D /* UIView+Corner.h in Headers */,
 				3A55E24F2077596C00D3884D /* UIViewWithBorder.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -131,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A55E27F2077607800D3884D /* UIView+Corner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
