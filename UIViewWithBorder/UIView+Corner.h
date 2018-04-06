@@ -9,9 +9,8 @@
 
 @interface UIView (Corner)
 
-@property(nonatomic) IBInspectable UIColor *borderColor;
-@property(nonatomic) IBInspectable CGFloat borderWidth;
-@property(nonatomic) IBInspectable CGFloat cornerRadius;
-@property(nonatomic) IBInspectable BOOL masksToBounds;
+@property(nonatomic, strong) IBInspectable UIColor *borderColor;
+@property(nonatomic, assign) IBInspectable CGFloat borderWidth;
+@property(nonatomic, assign) IBInspectable CGFloat cornerRadius;
 
 @end

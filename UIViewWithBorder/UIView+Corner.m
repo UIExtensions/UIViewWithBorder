@@ -17,7 +17,7 @@
 }
 */
 
-@dynamic borderColor, borderWidth, cornerRadius, masksToBounds;
+@dynamic borderColor, borderWidth, cornerRadius;
 
 - (void)setBorderColor:(UIColor *)borderColor {
     [self.layer setBorderColor:borderColor.CGColor];
@@ -29,10 +29,7 @@
 
 - (void)setCornerRadius:(CGFloat)cornerRadius {
     [self.layer setCornerRadius:cornerRadius];
-}
-
-- (void)setMasksToBounds:(BOOL)masksToBounds {
-    [self.layer setMasksToBounds:masksToBounds];
+    [self.layer setMasksToBounds:cornerRadius > 0];
 }
 
 @end
